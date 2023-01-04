@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'redHatDisplay';
+    src: url('fonts/RedHatDisplay-Black.woff2') format('woff2'),
+        url('fonts/RedHatDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'redHatDisplay';
+    src: url('fonts/RedHatDisplay-Bold.woff2') format('woff2'),
+        url('fonts/RedHatDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'redHatDisplay';
+    src: url('fonts/RedHatDisplay-Medium.woff2') format('woff2'),
+        url('fonts/RedHatDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+  --paleBlue: hsl(225, 100%, 94%);
+  --brightBlue: hsl(245, 75%, 52%);
+  --veryPaleBlue: hsl(225, 100%, 98%);
+  --desaturatedBlue: hsl(224, 23%, 55%);
+  --darkBlue: hsl(223, 47%, 23%);
+}
+
+.bodySentence {
+  font-size: 1rem;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
